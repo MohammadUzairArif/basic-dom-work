@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+
+}
+button{
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    /* position: absolute; */
+    position: absolute;
+    left: 47%;
+    top: 61%;
+    
+}
+.bulbOff{
+    display: none;
+}
